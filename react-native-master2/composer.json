@@ -1,0 +1,19 @@
+{
+    "name": "ejemplo/proyecto",
+    "description": "Aplicacion react native",
+    "authors": [
+        {
+            "name": "yolanda cisneros",
+            "email": "yolanda.cisnerostorres@gmail.com"
+        }
+    ],
+   "require": {
+        "okta/jwt-verifier": "^0.4.0",
+        "spomky-labs/jose": "^7.1",
+        "guzzlehttp/psr7": "^1.6",
+        "nelmio/cors-bundle": "^2.1"
+    },
+    "autoload": {
+        "psr-0": {"": "src/"}
+    }
+}
